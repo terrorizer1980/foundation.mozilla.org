@@ -32,7 +32,7 @@ chardet==3.0.4
     # via requests
 cloudinary==1.24.0
     # via -r requirements.in
-cryptography==3.2
+cryptography==3.3.2
     # via
     #   pyopenssl
     #   social-auth-core
@@ -67,7 +67,7 @@ django-taggit==1.2.0
     # via wagtail
 django-treebeard==4.3.1
     # via wagtail
-django==2.2.17
+django==2.2.24
     # via
     #   -r requirements.in
     #   django-admin-sortable
@@ -125,7 +125,7 @@ oauthlib==3.1.0
     #   social-auth-core
 openpyxl==3.0.5
     # via tablib
-pillow==7.1.0
+pillow==8.3.2
     # via wagtail
 psutil==5.8.0
     # via scout-apm
@@ -185,7 +185,7 @@ social-auth-core==3.3.3
     # via social-auth-app-django
 soupsieve==2.0.1
     # via beautifulsoup4
-sqlparse==0.3.1
+sqlparse==0.4.2
     # via django
 tablib[xls,xlsx]==2.0.0
     # via wagtail
@@ -218,7 +218,7 @@ wagtail-metadata==3.4.0
     # via -r requirements.in
 wagtail-modeltranslation==0.10.17
     # via -r requirements.in
-wagtail==2.11.6
+wagtail==2.11.8
     # via
     #   -r requirements.in
     #   wagtail-airtable
@@ -244,3 +244,4 @@ xlwt==1.3.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
