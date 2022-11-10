@@ -67,7 +67,7 @@ django-taggit==1.2.0
     # via wagtail
 django-treebeard==4.3.1
     # via wagtail
-django==2.2.17
+django==3.2.15
     # via
     #   -r requirements.in
     #   django-admin-sortable
@@ -185,7 +185,7 @@ social-auth-core==3.3.3
     # via social-auth-app-django
 soupsieve==2.0.1
     # via beautifulsoup4
-sqlparse==0.3.1
+sqlparse==0.4.2
     # via django
 tablib[xls,xlsx]==2.0.0
     # via wagtail
